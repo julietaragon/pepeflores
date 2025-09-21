@@ -6,7 +6,7 @@ let cancion;
 let florSize;
 
 function preload() {
-cancion = loadSound('data/primavera.mp3');
+cancion = loadSound('primavera.mp3');
 }
 
 function setup() {
@@ -110,3 +110,4 @@ function drawFlor(x, y, s) {
   ellipse(0, 0, s, s);
   pop();
 }
+
